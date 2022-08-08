@@ -1,0 +1,52 @@
+.App {
+  background: rgb(89, 98, 84);
+  text-align: center;
+  }
+  form {
+  border:2px solid skyblue;
+  background-color: white;
+  padding: 30px;
+  border: 5px;
+  
+  }
+  form:hover{
+    box-shadow: 5px 5px 5px 5px rgb(110, 117, 107);
+  }
+  .App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  }
+  .inpt{
+    border: none;
+    background-color: rgb(241, 242, 234);
+    box-shadow:3px 3px rgb(232, 225, 225);
+    border-radius: 8px;
+    padding-left: 8px;
+    font-size: medium;
+    width: 315px;
+    height: 43px;
+  }
+  input:focus{
+    outline: none;
+  }
+  ::placeholder {
+    
+    color: gray;
+    font-size: medium;
+   }
+
+  .btn{
+    background-color: #00b9f5;
+    width: 300px;
+    height: 50px;
+    border: 8px;
+    border-radius: 2px solid #0e97c4;
+    cursor: pointer;
+    color: white;
+  }
+    
